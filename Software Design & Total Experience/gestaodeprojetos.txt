@@ -1,0 +1,36 @@
+-> Objetivo
+
+    -Prender a atenção do usuário do site, informações mais objetivas, mais interatividade com o usúario.
+    -Arrumar alguns problemas simples porém influênciam muito na expêriencia do usuário.
+
+
+    Frase de entrada: Título "Oportunidade de aprender a investir" 
+                                      Subtítulo  "Transparência Segurança e Confiança"
+
+
+
+-> Situação Atual
+
+     -Site desinteressante.
+
+-> Critério de sucesso
+ 
+      -O usúario vai aprender a investir.
+      -Com uma plataforma web mais interativa, o usuário, ficará mais tempo no site e conhecerá mais sobre a B3 e sobre investimento.
+
+-> Escopo do Produto 
+ 
+       -Vamos entregar um site mais informativo, interativo e funcional.
+
+-> Exclusões do Projeto
+
+      -Aba branca inferior desnecessária.
+
+      -Cadastro fica muito embaixo.
+
+      -Url bagunçado.
+ 
+      -Home não funcional
+       
+
+ 
