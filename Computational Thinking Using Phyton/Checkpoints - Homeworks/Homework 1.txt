@@ -1,0 +1,65 @@
+Resposta lição 1 CTUP
+
+-ALGORITMO SACAR DINHEIRO
+1.Insira o cartão na máquina
+2.Seleione a opção de saque
+3.Informe os dados solicitados
+4.Digite o valor a ser sacado
+5.Digite sua senha do devido cartão
+6.Espere o dinheiro sair
+7.Retire o cartão da máquina
+8.Saque o dinheiro solicitado
+
+
+
+-ALGORITMO FRITAR OVO
+1.Pegue 2 ovos 
+2.Despeje óleo na frigideira 
+3.Ligue o fogo baixo//para não queimar em baixo
+4.Quebre os 2 ovos
+5.Despeje os ovos na frigideira quando o óleo já estiver quente
+6.Tempere à gosto
+7.Tampe a frigideira para cozir dos dois lados
+8.Quando o ovo estiver completamente frito, retire-o da frigideira
+9.Coloque-o no prato
+
+
+-ALGORITMO BELO MIOJO
+1.Pegue uma panela de 500ml
+2.Despeje 300ml de água na panela
+3.Ligue o fogo alto na panela, para assim ferver a água 
+4.Enquanto a água ferve, quebre o miojo em pedaços
+5.Retire o miojo da embalagem
+6.Despeje o miojo na água fervendo
+7.Espere o miojo chegar no ponto
+8.Quando o miojo chega no ponto, remover 90% da água
+9.Coloque uma colher de sopa de margarina, juntamente com o tempero de pó que acompanha na embalagem
+10.Misture tudo até que fique homôgenio
+
+-ALGORITMO PROCESSO DE IR NA ACADEMIA
+1.Pensar que vai para a academia
+2.Colocar a roupa devida para academia 
+3.Comer um pré treino para ter energia
+4.Se locomover até a academia 
+5.Treinar exercícios 
+6.Quando finalizado, se locomover para casa
+
+-ALGORITMO  TORRE DE 4 ANÉIS 
+
+(Terá 15 movimentos usando a fórmula 2 elevado ao número de anéis -1)
+
+1.Mover um anel da haste A  para a haste B
+2.Mover um anel da haste A para a haste C
+3.Mover um anel da haste B para a haste C
+4.Mover um anel da haste A para a haste B
+5.Mover um anel da haste C para a haste A
+6.Mover um anel da haste C para a haste B
+7.Mover um anel da haste A para a haste B
+8.Mover um anel da haste A para a haste C
+9.Mover um anel da haste B para a haste C
+10.Mover um anel da haste B para a haste A
+11.Mover um anel da haste C para a haste A
+12.Mover um anel da haste B para a haste C
+13.Mover um anel da haste A para a haste B 
+14.Mover um anel da haste A  para a haste C
+15.Mover um anel da haste B para a haste C
