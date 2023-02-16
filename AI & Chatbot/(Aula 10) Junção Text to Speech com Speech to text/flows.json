@@ -1,0 +1,294 @@
+[
+    {
+        "id": "97d467a897233e80",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1c0b28e63cf0367d",
+        "type": "telegram receiver",
+        "z": "97d467a897233e80",
+        "name": "",
+        "bot": "",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "96bd8c38e96bf7f4",
+                "5c4ba43486dbf569"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "96bd8c38e96bf7f4",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5c4ba43486dbf569",
+        "type": "switch",
+        "z": "97d467a897233e80",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voice",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "message",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "a3a52ac0d7deaa68"
+            ],
+            [
+                "232b59c84916b158"
+            ]
+        ]
+    },
+    {
+        "id": "a3a52ac0d7deaa68",
+        "type": "function",
+        "z": "97d467a897233e80",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "010913238bd24365",
+                "f4302de360c29d44"
+            ]
+        ]
+    },
+    {
+        "id": "232b59c84916b158",
+        "type": "function",
+        "z": "97d467a897233e80",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "666285c51079bd19",
+                "38bbd4ea1557840d"
+            ]
+        ]
+    },
+    {
+        "id": "010913238bd24365",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f4302de360c29d44",
+        "type": "watson-speech-to-text",
+        "z": "97d467a897233e80",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "",
+        "langhidden": "",
+        "langcustom": "",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "",
+        "payload-response": false,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "",
+        "x": 560,
+        "y": 280,
+        "wires": [
+            [
+                "70b4dfbcf6a3e0dc"
+            ]
+        ]
+    },
+    {
+        "id": "38bbd4ea1557840d",
+        "type": "watson-text-to-speech",
+        "z": "97d467a897233e80",
+        "name": "",
+        "lang": "",
+        "langhidden": "",
+        "langcustom": "",
+        "langcustomhidden": "",
+        "voice": "",
+        "voicehidden": "",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "",
+        "payload-response": false,
+        "service-endpoint": "",
+        "x": 560,
+        "y": 360,
+        "wires": [
+            [
+                "5bb024d36a122be2"
+            ]
+        ]
+    },
+    {
+        "id": "666285c51079bd19",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "70b4dfbcf6a3e0dc",
+        "type": "function",
+        "z": "97d467a897233e80",
+        "name": "ProcOUT STT",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 280,
+        "wires": [
+            [
+                "af1c39bae4878100",
+                "71ec479b1291357c"
+            ]
+        ]
+    },
+    {
+        "id": "5bb024d36a122be2",
+        "type": "function",
+        "z": "97d467a897233e80",
+        "name": "ProcOUT TTS",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 360,
+        "wires": [
+            [
+                "b10be8a7cadf02b8",
+                "71ec479b1291357c"
+            ]
+        ]
+    },
+    {
+        "id": "af1c39bae4878100",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b10be8a7cadf02b8",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "71ec479b1291357c",
+        "type": "telegram sender",
+        "z": "97d467a897233e80",
+        "name": "",
+        "bot": "",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    }
+]

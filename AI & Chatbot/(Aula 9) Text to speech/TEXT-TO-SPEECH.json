@@ -1,0 +1,183 @@
+[
+    {
+        "id": "97d467a897233e80",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eacaca25ddbbda0e",
+        "type": "play audio",
+        "z": "97d467a897233e80",
+        "name": "Play",
+        "voice": "17",
+        "x": 670,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "201ef1b6f7fb07e4",
+        "type": "inject",
+        "z": "97d467a897233e80",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Ola viny peixe",
+        "payloadType": "str",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "91b95128848cadd6"
+            ]
+        ]
+    },
+    {
+        "id": "9171e04b717c925a",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "91b95128848cadd6",
+        "type": "watson-text-to-speech",
+        "z": "97d467a897233e80",
+        "name": "TTS",
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "voice": "pt-BR_IsabelaV3Voice",
+        "voicehidden": "pt-BR_IsabelaV3Voice",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "iwr9tRCp4xv6nU4NT2Yp1igN0JxfpXOfBpq3-F0JS5bz",
+        "payload-response": true,
+        "service-endpoint": "https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/a27ddf96-b087-404b-bc3e-323407b77b79",
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "9171e04b717c925a",
+                "eacaca25ddbbda0e",
+                "622ee5cc647f43d0"
+            ]
+        ]
+    },
+    {
+        "id": "622ee5cc647f43d0",
+        "type": "function",
+        "z": "97d467a897233e80",
+        "name": "",
+        "func": "msg.payload = {\n    chatId: \"5106589779\",\n    type: \"voice\" ,\n    content: msg.payload\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "f9b3c378011d3778",
+                "767360857d667c9e"
+            ]
+        ]
+    },
+    {
+        "id": "f9b3c378011d3778",
+        "type": "telegram sender",
+        "z": "97d467a897233e80",
+        "name": "Telegram Sender",
+        "bot": "aff21901b1de8421",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "5fb9928aa674a8ab"
+            ]
+        ]
+    },
+    {
+        "id": "767360857d667c9e",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5fb9928aa674a8ab",
+        "type": "debug",
+        "z": "97d467a897233e80",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "aff21901b1de8421",
+        "type": "telegram bot",
+        "botname": "prova20022003bot",
+        "usernames": "",
+        "chatids": "5106589779",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]

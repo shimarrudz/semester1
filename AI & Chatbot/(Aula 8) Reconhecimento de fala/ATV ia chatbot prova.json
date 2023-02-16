@@ -1,0 +1,141 @@
+[
+    {
+        "id": "e4609834e5d93b20",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d8bd5a3318759138",
+        "type": "watson-speech-to-text",
+        "z": "e4609834e5d93b20",
+        "name": "Watson STT",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "BroadbandModel",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "MmyqPcFZYkQCN6XbHyXZEf3VJU6_59fOmCXEPiD5rDfk",
+        "payload-response": true,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/caa40ec7-a6ea-477a-8d1d-5eeabf600487",
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "ad0fb113364f1fa0"
+            ]
+        ]
+    },
+    {
+        "id": "7104cde41176fbe5",
+        "type": "debug",
+        "z": "e4609834e5d93b20",
+        "name": "Saída MIC",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ad0fb113364f1fa0",
+        "type": "debug",
+        "z": "e4609834e5d93b20",
+        "name": "Saída texto",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "8c7d3d529b7e6d3f",
+        "type": "telegram receiver",
+        "z": "e4609834e5d93b20",
+        "name": "",
+        "bot": "9aea4c75d0440d7c",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "7104cde41176fbe5",
+                "78b8674770116a7f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "78b8674770116a7f",
+        "type": "function",
+        "z": "e4609834e5d93b20",
+        "name": "Proc Entrada",
+        "func": "msg.payload = msg.payload.weblink;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "d8bd5a3318759138"
+            ]
+        ]
+    },
+    {
+        "id": "9aea4c75d0440d7c",
+        "type": "telegram bot",
+        "botname": "t.me/shimada2003_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]

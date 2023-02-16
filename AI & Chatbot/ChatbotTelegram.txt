@@ -1,0 +1,23 @@
+ChatId: 5106589779
+
+Token Chatbiot
+5730425523:AAGcDOD31JCQA_B9CFkH_cgTDnBTFolz20o
+
+Chatbot Name
+t.me/shimada2003_bot
+
+
+SPEEHC_TO_TEXT
+WATSON API key:
+vvnV_IMuDAEJt68bPxrTbgOCOuaascJpiE30myKsOd1B
+
+Assistant ID:
+b89b59f6-49af-4826-a180-39902f283999
+
+
+TEXT-TO-SPEECH
+
+WATSON API key:
+apikey": "iwr9tRCp4xv6nU4NT2Yp1igN0JxfpXOfBpq3-F0JS5bz
+
+https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/a27ddf96-b087-404b-bc3e-323407b77b79

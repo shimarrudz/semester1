@@ -1,0 +1,71 @@
+   Segue alguns modos de aplicação de IA : 
+
+-Otimização da tomada de decisão na hora de investir.  
+
+-Investimento lógico e seguro a partir de “robôs investidores”. 
+
+No vídeo que você pode conferir aqui na matéria, nós entrevistamos Bernardo Aflalo (especialista em Inteligência Artificial da Clear Corretora) para trazer mais detalhes sobre essa evolução.   
+
+A Clear Corretora lançou aqui no Brasil a AIA (Assistente de Inteligência Artificial) para ajudar os investidores de todo o país. Funcionando como um “personal trader”, esse sistema tecnológico faz o cálculo de milhões de eventos do mercado para trazer dicas com relatórios diários. 
+
+A AIA também é responsável por entender o perfil de cada investidor para que as dicas sejam direcionadas para o jeito pessoal de ganhar dinheiro com ações. Aflalo também revela que isso está longe de ser algo caro e de difícil acesso. Hoje, pessoas que investem a partir de R$ 20 já podem ter acesso aos recursos da AIA. 
+
+Especialistas afirmam que automação, inteligência artificial e machine learning estão prestes a transformar o setor de serviços financeiros. 
+
+ 
+
+ 
+
+Para trazer apenas um dado, o valor de ativos financeiros ao redor do mundo administrados por robôs chegou a US$ 222 bilhões em 2017 — mais do que o dobro do ano anterior. 
+
+ 
+
+ 
+
+“Automação, inteligência artificial e machine learning estão prestes a transformar o setor de serviços financeiros”, afirma Shawn Edwards, diretor-chefe de tecnologia (CTO) da Bloomberg. 
+
+ 
+
+Os benefícios e aplicações desse tipo de tecnologia são muitos. No campo inicial, a inteligência artificial é utilizada para a automação de decisões humanas simples e diretas, como o processamento de dados econômicos e a melhora da produtividade do setor financeiro. 
+
+ 
+
+Empresas mais sofisticadas usam o machine learning para processos como a análise de risco de contraparte, previsão do risco de falência, previsão de retornos e de lucros. Para fundos de investimentos, a tecnologia ajuda ainda na construção de portfólio e análise de sentimentos de notícias financeiras. 
+
+ 
+
+No caso do trading, a aplicação mais óbvia dessas tecnologias é a utilização de robôs que, com parâmetros pré-definidos, conseguem operar a compra e venda de ativos. Mas, além disso, a era do big data e das tecnologias como machine learning pode ajudar os operadores a obter muito mais valor das informações, incluindo dados relacionados a clientes, holdings, negociações e até eventos que não foram negociados. Há ganhos também ao automatizar os processos de compliance e alavancar os dados que os reguladores exigem que as empresas capturem. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Recapitulando… o que são os robôs investidores?  
+
+Hoje, o que chamamos de robôs investidores nada mais são do que programas que observam a oscilação de preços de um ativo e determinam a compra ou a venda de ações nos momentos mais propícios. Na verdade, eles não atuam sozinhos, mas são uma ferramenta utilizada por investidores humanos. Qualquer um que tenha conta em uma corretora de valores já pode usar os robôs em seus investimentos, alguns, inclusive, são gratuitos.  
+
+Como os robôs investidores atuam no mercado?  
+
+Os robôs investidores se baseiam em setups da Bolsa de Valores, e fazem gráficos de acordo com a movimentação dos preços dos ativos no período observado. No momento em que certas condições, configuradas pelo investidor no início da operação, são alcançadas, os robôs entram em cena comprando ou vendendo ativos.  
+
+Normalmente, esses robôs são usados por investidores no Day Trade, por conta da velocidade da tomada de decisões e da velocidade da emissão e realização das ordens. Mas isso não é regra: eles podem ser utilizados em qualquer estratégia. 
+
+Quando se atinge o Stop Loss (prejuízo máximo prorrogado) ou o Take Profit (lucro máximo) os robôs deixam de operar. Tudo isso pode ser definido pelo investidor previamente. 
+
+Até onde é interessante usar a Inteligência Artificial para investir? 
+
+Com o aprimoramento da Inteligência Artificial, fica o seguinte questionamento: a tecnologia está mesmo preparada para conquistar o mercado de ações? Bem, na verdade, as pesquisas realizadas nesse sentido apontam que os resultados obtidos pelos robôs não diferiram muito das estratégias dos investidores humanos, nem apresentaram números absurdamente melhores. Entretanto, eles são considerados seguros, algo que também é recorrentemente questionado.  
+
+Na realidade, qualquer investidor que ingresse no mercado financeiro e esteja disposto a aplicar capital na Bolsa precisa ter certo conhecimento desse mercado. Ele precisa saber como vender ativos, subir stops, calcular position sizing… absorver esse conhecimento leva tempo e requer muita paciência e dedicação. Para facilitar essa tarefa, os robôs investidores podem ser uma mão na roda.   
+
+Porém, para fazer o robôs investidores realmente ganharem dinheiro é preciso programar o software com os parâmetros certos, ou seja, o robô funciona como um apoio, mas não se deve deixar tudo sob o seu comando. Eles devem ser utilizados como uma ferramenta de suporte por quem, de fato, sabe o que está fazendo. Afinal, de que vale despender enormes quantias de dinheiro se você não sabe como investir na Bolsa?  
+
+No fim das contas, a principal vantagem é mesmo a economia de tempo, já que os robôs conseguem tomar decisões muito rapidamente, sem levar em conta as emoções humanas, o que os torna especialmente úteis para o Day Trade.  
+
+Os robôs investidores são, hoje, uma solução tecnológica viável para otimizar os resultados de seus investimentos e agilizar os processos. Uma boa dica é começar aos poucos, intercalando entre a operação manual e o uso dos robôs. E, já sabe, se precisar de um auxílio para gerenciar seus investimentos, pode contar com o LiveCapital. 
+
+ 

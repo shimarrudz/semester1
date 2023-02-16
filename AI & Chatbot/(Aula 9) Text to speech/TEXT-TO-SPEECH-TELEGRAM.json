@@ -1,0 +1,21 @@
+[
+    {
+        "id": "bae328b3bf0b2a95",
+        "type": "function",
+        "z": "3e6d8d4b3c14fb99",
+        "name": "",
+        "func": "msg.payload = msg.payload.content;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 400,
+        "wires": [
+            [
+                "26f3535240f8036c"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,2 @@
+"apikey": "MmyqPcFZYkQCN6XbHyXZEf3VJU6_59fOmCXEPiD5rDfk"
+ "url": "https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/caa40ec7-a6ea-477a-8d1d-5eeabf600487"
