@@ -1,0 +1,19 @@
+package teste;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//O clássico oi mundo com a quebra de linha
+System.out.println("Oi Mundo novamente");
+
+/*
+ * Abaixo o segundo código que eu fiz na segunda aula de Java
+ * Autor; Victor Shimada
+ * 
+ */
+	}
+
+}
