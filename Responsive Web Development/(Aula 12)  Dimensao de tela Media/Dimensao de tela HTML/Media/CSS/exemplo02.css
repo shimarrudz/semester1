@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(248, 185, 185);
+}
+
+
+.caixa{
+    border: solid 2px blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin: 20px;
+}
+
+.area-visivel span{
+    color:#666;
+    display: none;
+    
+}
+
+
+
+/*Se a tela estiver de 0 a 600px faça isso abaixo*/
+@media screen and (max-width: 600px){
+    .um {
+        color: aqua;
+        background-color: rgb(221, 5, 5);
+    }
+    .dois{
+        display: none;
+    }
+    span.menor600{
+        display: inline-block;
+    }
+}
+    
+/*Se a tela estiver de 601 a 899px faça isso abaixo*/
+@media screen and (min-width: 601px) and (max-width:899px){
+    .tres{    
+        display: none;
+        background-color:blueviolet
+    }
+    .dois{
+        background-color:blueviolet
+    }   
+    span.entre600-900{
+        display: inline-block;
+     }
+}    
+
+/*Se a tela estiver a partir de 900px faça isso abaixo */
+@media screen and (min-width:901px){
+    .um {
+        display: none;
+    }
+    .tres{
+        background-color: greenyellow;
+    }
+    span.maior900{
+        display: inline-block;
+    }
+}
+        

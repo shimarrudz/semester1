@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Revisão Forms</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="txtNome"> <!-- LABEL = REPRESENTA A ETIQUETA DO INPUT / FOR = DEFINE A QUE ELEMENTO ESTA LABEL ESTÁ RELACIONADA-->
+            NOME:
+        </label>
+        <input type="text" id="txtNome" placeholder="Digite seu nome completo sem abreviação"> <!-- INPUT = CRIA A  BOX DE TEXTO PARA O USUÁRIO  /  ID = IDENTIFICAÇÃO DE UMA TAG HTML -->
+        <br>
+        <label for="txtCPF">
+            CPF:
+        </label>
+        <input type="text" id="txtCPF" placeholder="inserir o cpf sem pontos ou traços"> <!-- PLACEHOLDER = AJUDA A ENTENDER O QUE PREENCHER NA BOX-->
+        <br>
+        <label for="txtEmail">
+            E-MAIL:
+        </label>
+        <input type="email" id= "txtEmail"  required maxlength="11"> <!--TYPE = EMAIL, TEXT, PASSWORD, TEL, URL, RANGE, FILE, DATETIME, ETC..-->
+        <!-- REQUIRED TORMA O CAMPO OBRIGATÓRIO -->
+        <br>
+        <label for="idEstado"> ESTADO:
+
+        </label>
+
+        <select name="estado" id="idEstado">
+            <option value="SP"> SÃO PAULO </option>
+            <option value="RJ"> RIO DE JANEIRO </option>
+            <option value="ES"> ESPÍRITO SANTO</option>
+
+        </select> <!-- SELECT = CRIA UMA BOX DE SELEÇÃO  /
+        OPTION VALUE = ADICIONA DADOS AO SELECT-->
+            <br>
+
+            <label for="txtPassword">
+                SENHA:
+            </label>
+            <input type="text" id="txtPassword" minlength="8">  <!-- MINLENGTH = DEFINE O MÍNIMO DE CARÁCTERES -->
+            <br>
+            <label for="txtCorPreferida">
+                COR PREFERIDA:
+            </label>
+            <input type="text" id="txtCorPreferida" minlength="3" required>
+
+            <br>
+
+            <label for="txtMensagem" >
+                MENSAGEM:
+            </label>
+            <textarea name="mensagem" id="txtMensagem" cols="30" rows="10"></textarea> <!-- TEXTAREA = CRIA UMA TEXTBOX COM ESPECIFICAÇÃO DE TAMANHO-->
+            
+            <br>
+
+            <label for="txtNumeros">
+                NÚMEROS:
+            </label>
+                <input type="range" id="txtNumeros" min="5" max="50">
+
+                <br>
+
+
+            <input type="reset" value="LIMPAR">  <!--RESET = LIMPA AS INFORMAÇÕES DIGITADAS NO FORMULÁRIO-->
+        <button type="submit">
+            ENVIAR
+        </button>
+
+    </form>
+    
+</body>
+</html>

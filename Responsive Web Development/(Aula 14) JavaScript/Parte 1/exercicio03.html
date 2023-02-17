@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> PEGAR NOME DO USUÁRIO </h1>
+
+    <!-- Dando função ao botão -->
+    <button onclick="primeiroPasso()"> CLIQUE AQUI PARA COMEÇAR </button>
+
+    <!-- Tag para JavaScript -->
+    <script>
+        // Criando função
+        function primeiroPasso(){
+            //Criação de variável 
+            let nome = window.prompt("Qual é o seu nome?")
+            //Janela de alerta com concatenação
+            window.alert("Olá " + nome + " é um prazer ")
+        }
+    </script>
+
+    
+</body>
+</html>

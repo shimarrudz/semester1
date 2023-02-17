@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        background-color: blueviolet;
+    }
+    .desktop{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+    body{
+        background-color: aquamarine;    
+    }
+    .mobile{
+        display: none;
+    }
+    
+}

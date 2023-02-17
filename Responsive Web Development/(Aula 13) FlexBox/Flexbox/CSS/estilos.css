@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    background-color: rgb(7, 44, 207);
+    padding: 10px;
+    height: 100px;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+}
+
+article{
+    background-color: rgb(62, 216, 243);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.artigos{
+    display: flex;
+}
+
+p{
+    text-align: justify;
+}

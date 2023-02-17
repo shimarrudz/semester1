@@ -1,0 +1,45 @@
+body{
+    background-color: darkcyan;
+}
+div{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block; /*Exibir o conteúdo na mesma linha*/
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+#caixa1{
+    background-color: violet;
+}
+
+#caixa2{
+    background-color: rgb(241, 74, 241);
+}
+
+#caixa3{
+    background-color: rgb(235, 29, 235);
+}
+.caixaImagemFundo{
+    position: relative;
+    width: 100%;
+}
+.caixaImagemFundo::before{
+    content: "";
+    background-image: url(/img/imagemFundoDois.jpg);
+    position: absolute;
+    opacity: 0.4;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+p{
+    color: brown;
+}

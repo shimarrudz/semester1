@@ -1,0 +1,30 @@
+th{
+    text-align: center;
+    height: 110px;
+}
+div{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#caixa1{
+    background-color: #a929d4;
+    border-radius: 30px;
+}
+#caixa2{
+    background-color: #a60376;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 40px;
+}
+#caixa3{
+    background-color: #000167;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 20px;
+}

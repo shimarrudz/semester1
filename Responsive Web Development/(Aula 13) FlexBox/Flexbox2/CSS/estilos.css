@@ -1,0 +1,72 @@
+/* Reset do CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 166, 166);
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(84, 179, 243); 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    /* Para telas menores organização automática */
+    flex-wrap: wrap;
+}
+
+.menu li a:hover{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    background-color: gray;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-basis: 250px;
+}
+
+.container div{
+    margin: 10px;
+}

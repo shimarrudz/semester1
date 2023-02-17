@@ -1,0 +1,58 @@
+
+div{
+    border: 5px;
+    border-style:ridge;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block; /* exibir o conteudo na mesma linha */
+
+    margin-top: 100px; /* margin espaçamento externo dos conteudos */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    
+
+    
+
+}
+
+.Texto{
+    opacity: 100%;
+}
+
+
+/* DEFINIR CSS NAS TAGS, NAS CLASSES seletor .nomeClasse, pelo ID seletor é #ID */
+
+#caixa1{
+    background-color: blueviolet;
+    border-radius: 30px;
+    padding: 45PX;
+}
+
+#caixa2{
+    background-color: black;
+    color: white;
+
+}
+
+#caixa3{
+    background-color:chocolate;
+}
+
+.caixaImagemFundo{
+    position: relative;
+}
+
+
+.caixaImagemFundo::before{
+    content: "";
+    background-image:url(/RWD-ALUNOS/img/);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    
+}
